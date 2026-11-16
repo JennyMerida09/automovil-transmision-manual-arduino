@@ -35,6 +35,7 @@ La selección de marchas se realiza mediante cuatro botones pulsadores:
 - Primera marcha.
 - Segunda marcha.
 - Tercera marcha.
+  
 La velocidad de los motores se modifica de acuerdo con la marcha seleccionada y el nivel de aceleración, permitiendo observar los cambios en el desplazamiento del prototipo.
 
 ## Desarrollo y pruebas
