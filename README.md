@@ -30,10 +30,10 @@ El sistema utiliza tres potenciómetros para representar los controles principal
 - **Freno:** representa el control de frenado.
 - **Embrague:** representa el accionamiento del embrague.
 La selección de marchas se realiza mediante cuatro botones pulsadores:
-- Neutro.
-- Primera marcha.
-- Segunda marcha.
-- Tercera marcha.
+-- Neutro.
+-- Primera marcha.
+-- Segunda marcha.
+-- Tercera marcha.
 La velocidad de los motores se modifica de acuerdo con la marcha seleccionada y el nivel de aceleración, permitiendo observar los cambios en el desplazamiento del prototipo.
 
 ## Desarrollo y pruebas
