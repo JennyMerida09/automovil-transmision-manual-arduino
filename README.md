@@ -41,9 +41,11 @@ La velocidad de los motores se modifica de acuerdo con la marcha seleccionada y 
 ## Desarrollo y pruebas
 ### 1. Simulación en Tinkercad
 Primero se diseñó el circuito electrónico en Tinkercad Circuits y se desarrolló el código para comprobar el funcionamiento de las entradas y la lógica de control antes de realizar el montaje físico.
+![Circuito en Tinkercad](imagenes/circuito-tinkercad.png)
 
 ### 2. Implementación física
 Una vez realizadas las pruebas de simulación, se implementó el sistema en un chasis físico con dos ruedas y motores, integrando los componentes electrónicos y el código desarrollado.
+![Prototipo físico](imagenes/prototipo-fisico.jpg)
 
 ## Conocimientos aplicados
 - Programación en C++ mediante Arduino.
