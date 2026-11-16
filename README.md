@@ -29,6 +29,7 @@ El sistema utiliza tres potenciómetros para representar los controles principal
 - **Acelerador:** permite regular la aceleración.
 - **Freno:** representa el control de frenado.
 - **Embrague:** representa el accionamiento del embrague.
+  
 La selección de marchas se realiza mediante cuatro botones pulsadores:
 - Neutro.
 - Primera marcha.
