@@ -49,6 +49,29 @@ Una vez realizadas las pruebas de simulación, se implementó el sistema en un c
 
 ![Prototipo físico](imagenes/prototipo-fisico.jpg)
 
+## Lógica de Programación
+El sistema fue programado en C++ mediante Arduino, utilizando entradas analógicas y digitales para controlar el comportamiento del vehículo.
+
+## Selección de marchas:
+La selección de marchas se habilita cuando el valor del potenciómetro del embrague supera un umbral de 800. Cada botón pulsador representa una marcha y tiene asociado un multiplicador de velocidad:
+- Neutro: 0.0
+- Primera: 0.4
+- Segunda: 0.7
+- Tercera: 1.0
+
+## Control de aceleración
+El valor del potenciómetro del acelerador se convierte a un rango de 0 a 255. Posteriormente, se multiplica por el factor correspondiente a la marcha seleccionada para calcular la velocidad inicial de los motores.
+
+## Control de frenado:
+El potenciómetro del freno permite calcular una reducción de velocidad. Este valor se resta de la velocidad inicial y, si el resultado es negativo, se establece en cero.
+
+## Control de motores
+La velocidad final se envía a los dos motores mediante señales PWM utilizando las salidas del Arduino conectadas al controlador L298N.
+
+## Monitor serie
+Se utiliza el monitor serie para visualizar los valores del freno, embrague, marcha seleccionada y velocidad final de los motores durante las pruebas.
+
+
 ## Conocimientos aplicados
 - Programación en C++ mediante Arduino.
 - Lectura de entradas analógicas y digitales.
